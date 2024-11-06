@@ -1,6 +1,6 @@
 {% set theme_name = "time-machine" %}
 {% set name = '-'.join(['jekyll-theme', theme_name]) %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: c01e80d445d38b43b59d0605df290044b50634251d1df55a065b6de199fd0f04
+  sha256: bc3490a7eccfc24ca671780c9d4f531500936a361690020b19defe6105d74fe2
 
 build:
   noarch: generic
